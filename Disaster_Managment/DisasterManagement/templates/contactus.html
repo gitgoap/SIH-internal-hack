@@ -1,0 +1,43 @@
+{% extends 'base_header1.html' %}
+
+{% block title %}Contact Us{% endblock title %}
+
+{% block body %}
+    <div class="container-form">
+        <h1 style="text-align: center;color: white;font-size: 50px;">Contact Us</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" namespace="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <div class="center">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </div>
+
+    <div class="contact-info">
+        <div class="column">
+            <h2>Contact Numbers</h2>
+            <p>Phone: +1 (123) 456-7890</p>
+            <p>Fax: +1 (123) 456-7891</p>
+        </div>
+        <div class="column">
+            <h2>Email Addresses</h2>
+            <p>General: info@example.com</p>
+            <p>Sales: sales@example.com</p>
+        </div>
+        <div class="column">
+            <h2>Address</h2>
+            <p>123 Main St, Delhi, India</p>
+        </div>
+    </div>
+{% endblock body %}

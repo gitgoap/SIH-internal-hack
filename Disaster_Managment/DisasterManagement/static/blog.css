@@ -1,0 +1,23 @@
+.point-box{
+    width: 80%; 
+    display: flex; 
+    justify-content: center;
+    background-color: #2d2d2d; 
+    padding:20px;
+    border-radius: 1em;
+}
+
+.author-box{
+    background-color: #161616;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.author-box img{
+    padding-right: 200px;
+    width: 20%;
+    height: auto;
+}
