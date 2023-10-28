@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #161616;
+}
+
+header {
+  background-color: #161616;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.container1,
+.container3 {
+  background-color: #161616;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+.container2,
+.container4 {
+  background-color: #2d2d2d;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.container1 img,
+.container3 img {
+  max-width: 50%;
+  height: auto;
+}
+
+.container2 img,
+.container4 img {
+  max-width: 50%;
+  height: auto;
+}
+
+.text-content {
+  flex: 1;
+  padding: 70px;
+}
+
+.text-content-left {
+  flex: 1;
+  padding: 70px;
+}
+
+.learn-more-button {
+  text-align: left;
+}
+
+.learn-more-button a {
+  font-size: 16px;
+  display: inline-block;
+  background-color: #040404;
+  color: white;
+  padding: 15px 50px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+    background-color:#2d2d2d;
+    color: #fff;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    background-color: #2d2d2d;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;/* Add horizontal margin to separate links */
+}
+
+.subscription-form {
+    margin-right: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    max-width: 500px;
+    padding: 30px;
+}
+
+.subscription-form input[type="text"], .subscription-form input[type="email"], .subscription-form input[type="submit"] {
+    width: 80%;
+    padding: 5px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscription-form input[type="submit"] {
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}

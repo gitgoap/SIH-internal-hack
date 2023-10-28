@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <header>
+        <nav style=" background-color: #161616; text-align: left; padding-top: 30px; font-size: 20px;padding-left: 20px;">
+            <a href="index.html">Home</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="blog.html">Blog</a>
+            <a href="map.html">Map</a>
+        </nav>
+    </header>
+
+    <div class="container-form">
+        <h1 style="text-align: center;color: white;font-size: 50px;">Emergency Contacts</h1>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" namespace="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <div class="center">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </div>
+
+    <div class="contact-info">
+        <div class="column">
+            <h2>Contact Numbers</h2>
+            <p>Phone: 011-23438091</p>
+            <p>Fax: 011-234381361</p>
+        </div>
+        <div class="column">
+            <h2>Email Addresses</h2>
+            <p>General: hq.ndrf@nic.in</p>
+            <p>Sales: hq.sdrf@nic.in</p>
+        </div>
+        <div class="column">
+            <h2>Address</h2>
+            <p>123 Main St, Delhi, India</p>
+        </div>
+    </div>
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "LUPkFPrG8d2THg6ZlIeet",
+        domain: "www.chatbase.co"
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="LUPkFPrG8d2THg6ZlIeet"
+        domain="www.chatbase.co"
+        defer>
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="map"></div>
+  
+
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer
+      ></script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div>
+            <h2 style="color: white;font-size: 30px; text-align: left; padding-left: 30px">DisasterAid</h2>
+            <nav class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="#">Services</a>
+            </nav>
+        </div>
+        <div class="subscription-form">
+            <h3 style="color: white;font-size: 25px;">Subscribe via Email</h3>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+    
+</body>
+</html>
